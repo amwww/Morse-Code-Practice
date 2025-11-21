@@ -11,9 +11,20 @@ body {
 
 .yeah {
     background-color: rgb(20, 20, 20);
-    height: fit-content;
+    height: 200px;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
-    aspect-ratio: 1/1;
+    aspect-ratio: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 40px rgba(255, 255, 255, 0.2);
+}
+
+.yeah:hover {
+    scale: 1.05;
 }
