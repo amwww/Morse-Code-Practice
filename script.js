@@ -1,4 +1,6 @@
+var clicked =0;
 document.getElementById("1").onclick = function() {
-    alert("Hello! You clicked the div.");
+    clicked +=1
+    document.getElementById("2").innerText=""
 };
 
